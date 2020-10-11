@@ -1,4 +1,4 @@
-db.peliculas.find()
-db.peliculas.find ({"Director": "James Cameron"})
-db.peliculas.find ({"Director": {$eq: "John Ford"}})
-db.peliculas.find ({"premios": "4"})
+db.películas.find()
+db.películas.find ({"Director": "James Cameron"})
+db.películas.find ({"Director": {$eq: "John Ford"}})
+db.películas.find ({"premios": "4"})
